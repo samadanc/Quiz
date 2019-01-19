@@ -1,0 +1,41 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta name="generator" content="ReText 7.0.1">
+	<title>Highest score will be recorded as a final grade</title>
+</head>
+<body>
+	<style>
+	h2, p {
+		margin-top: 0px;
+		margin-bottom: 0px
+	}
+</style>
+
+<p><strong>Title:</strong> Highest score will be recorded as a final grade</p>
+<p><strong>Primary Actor:</strong> User and instructor</p>
+<p><strong>Stakeholders and Interests:</strong></p>
+<blockquote>
+	<p>User: wants the highest attempt score to be recorded as the final grade</p>
+	<p>Instructor: wants to record and display the highest score in the gradebook</p>
+</blockquote>
+<p><strong>Precondition</strong>: A quiz allows multiple attempts</p>
+<p><strong>Trigger</strong>: A submission is done by user</p>
+<blockquote></blockquote>
+<p><strong>Main Scenario</strong>:</p>
+<ol>
+	<li>User submits the quiz for the first time</li>
+	<li>SuD updates the first attempt score as the current highest score </li>
+	<li>User submits the quiz for multiple times</li>
+	<li>SuD computes and records the highest score among all the submission.</li>
+	<li>SuD displays the highest score as the user's final grade </li>
+</ol>
+<p><strong>Extensions</strong>:</p>
+<blockquote>
+	<p>3a. No submission made.
+		<p style="margin-left: 45px;">3a1. SuD computes highest score from the previous submissions.</p>
+	</blockquote>
+</body>
+</html>

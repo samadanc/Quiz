@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta name="generator" content="ReText 7.0.1">
+        <title>time_limit</title>
+    </head>
+    <body>
+        <style>
+            h2, p {
+                margin-top: 0px;
+                margin-bottom: 0px
+            }
+        </style>
+        <p><strong>Title:</strong> Time Limit.</p>
+        <p><strong>Primary Actor:</strong> Instructor.</p>
+        <p><strong>Stakeholders and Interests:</strong></p>
+        <blockquote>
+            <p>Instructor- wants a time limit to see if students can apply what they've learned efficently.</p>
+            <p>Student- wants to be able to manage their time, and to see what they need to work on.</p>
+        </blockquote>
+        <p><strong>Precondition:</strong> Teacher has created a quiz, but has not released it to students.</p>
+        <p><strong>Trigger:</strong> Teacher wants to add a timer to their quiz.</p>
+        <p><stong>Main Success Scenario:</stong></p>
+        <ol>
+            <li>Instructor finds the quiz they have created in the SuD.</li>
+            <li>Instructor selects option to add a timelimit.</li>
+            <li>Instructor enters a timelimit in minutes to the quiz.</li>
+            <li>Instructor applies changes.</li>
+            <li>Instructor pushes quiz to students.</li>
+            <li>Quiz is unlocked for the specified time period once students begin quiz.</li>
+            <li>After the time limit has expired, any unsubmitted quiz will be automatically submitted.</li>      
+        </ol>
+        <p><strong>Extensions:</strong></p>
+        <blockquote>
+            <p>2A: Time Limit has already been added to quiz.</p>
+            <blockquote><p>2A.2: Option to change time limit offered.</p></blockquote>
+            <p>7A: Student started but not finished all questions.</p>
+            <blockquote><p>7A.1: Student's answers should be saved per use case <a href="take_quiz.html">Take Quiz</a>, thus there marks will be calculated based on what's done at deadline.</p></blockquote>
+            <p>7B: Student never began quiz, thus time limit never began.</p>
+            <blockquote><p>7B.1: Refer to use case <a href="take_quiz.html">Take Quiz.</a> </p></blockquote>
+        </blockquote>
+    </body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="generator" content="ReText 7.0.1">
+<title>take_quiz</title>
+</head>
+<body>
+<style>
+h2, p {
+    margin-top: 0px;
+    margin-bottom: 0px
+}
+</style>
+
+<p><strong>Title:</strong> Take Quiz</p>
+<p><strong>Primary Actor:</strong> Student</p>
+<p><strong>Stakeholders and Interests:</strong></p>
+<blockquote>
+    <p>Student: wants the quiz recorded</p>
+    <p>Instructor: wants quiz submission</p>
+    <p>Tech: wants log of quiz submission</p>
+</blockquote>
+<p><strong>Precondition</strong>: Student logged in to quiz selection page.</p>
+<blockquote></blockquote>
+<p><strong>Main Scenario</strong>:</p>
+<ol>
+    <li>SuD presents quizzes available to Student</li>
+    <li>Student selects quiz</li>
+    <li>SuD presents any quiz special instructions</li>
+    <li>Student starts quiz</li>
+    <li>SuD presents quiz question</li>
+    <li>Student enters answer</li>
+    <li>SuD advances to next question</li>
+    <li>Student repeats 5-8 as desired</li>
+    <li>Student submits quiz solution</li>
+    <li>SuD confirms quiz submission</li>
+</ol>
+<p><strong>Extensions</strong>:</p>
+<blockquote>
+	<p>5a. SuD displays quiz time remaining</p>
+	<blockquote>
+		<p>5a1. SuD only displays time if the quiz is time limited</p>
+	</blockquote>
+    <p>6a. Suspend Quiz</p>
+    <blockquote>
+        <p>6a1. Student suspends quiz session</p>
+        <p>6a2. SuD maintains answers for subsequent quiz session
+        </p>
+    </blockquote>
+    <p>10a. Submission rejected</p>
+    <blockquote>
+        <p>10a1. SuD says quiz incomplete</p>
+        <p>10a2. Student forces incomplete submission</p>
+    </blockquote>
+    <p>Variation: 1a. Student searches for a quiz by its name</p>
+    <p>Variation: 6b. Student selects any other quiz question</p>
+    <p>Variation: 6c. Student changes previous answer</p>
+</blockquote>
+</body>
+</html>

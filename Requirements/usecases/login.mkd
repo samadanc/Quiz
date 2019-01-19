@@ -1,0 +1,33 @@
+<style>
+h2, p {
+    margin-top: 0px;
+    margin-bottom: 0px
+}
+</style>
+
+__Title:__ Login
+
+__Primary Actor:__ User
+
+__Stakeholders and Interests:__
+
+>User: Instructor, Tech, or Student that wants to log in securely
+
+>Instructor: wants to control access
+
+>Tech: wants log of access
+
+__Precondition__: SuD presents login page.
+>
+
+__Main Scenario__:
+
+1. User types in login credentials
+2. SuD confirms login and records login attempt
+3. SuD advances to quiz selection 
+
+__Extensions__:
+
+>Variation: 1a. MUN credentials are supplied by browser
+
+

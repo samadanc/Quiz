@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- saved from url=(0051)file:///C:/Users/admin/Ass1/usecases/take_quiz.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="generator" content="ReText 7.0.1">
+<title>give_feedback</title>
+</head>
+<body>
+<style>
+h2, p {
+    margin-top: 0px;
+    margin-bottom: 0px
+}
+</style>
+
+<p><strong>Title:</strong> Give Feedback</p>
+<p><strong>Primary Actor:</strong> Instructor
+</p>
+<p><strong>Stakeholders and Interests:</strong></p>
+<blockquote>
+<p>Instructor: wants to be able to give feedback to students, especially for short answer questions where manual marking is required 
+</p>
+<p>Student: wants feedback from instructor regarding performance on overall quiz, or short answer questions if present</p>
+<p>Tech: wants to enable the feature of written feedback for the instructor</p>
+</blockquote>
+<p><strong>Precondition</strong>: The deadline to submit the quiz has passed.</p>
+<blockquote></blockquote>
+<p><strong>Main Scenario</strong>:</p>
+<ol>
+<li>Instructor logs in to verify credentials, and is granted administrator access</li>
+<li>SuD lists quiz submission for that particular class</li>
+<li>Instructor selects a quiz submission from a student</li>
+<li>SuD displays quiz submission and also displays "Give Feedback" button for each question</li>
+<li>Instructor clicks "Give Feedback" button</li>
+<li>SuD provides a text box for instructor to give feedback in, a "Submit" button to submit feedback, and a "Save" button to save feedback</li>
+<li>Instructor grants a written feedback of performance for that question and presses "Save" button</li>
+<li>Instructor clicks "Submit" button to submit feedback</li>
+<li>SuD records feedback and is displayed in Submissions for student to view</li>
+<li>Instructor repeats from step 4, or step 2 if a different student needs to be given feedback </li>
+</ol>
+<p><strong>Extensions</strong>:</p>
+<blockquote>
+<p>1a. Instructor is not able to verify credentials</p>
+<blockquote>
+<p>1a1. the page is refreshed and the Instructor is prompted again to verify credentials</p>
+
+</blockquote>
+<p>8a. Instructor is not able to submit by clicking "Submit" button</p>
+<blockquote>
+<p>8a1. Instructor is sent back to page of feedback where previous feedback has already been saved due to the "Save" button</p>
+
+</blockquote>
+
+
+</blockquote>
+
+
+</body></html>

@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="generator" content="ReText 7.0.1">
+<title>useCaseReviewSubmission</title>
+</head>
+<body>
+<style>
+h2, p {
+    margin-top: 0px;
+    margin-bottom: 0px
+}
+</style>
+
+<p><strong>Title:</strong> Review Submission</p>
+<p><strong>Primary Actor:</strong> Instructor</p>
+<p><strong>Stakeholders and Interests:</strong></p>
+<blockquote>
+<p>Instructor - wants to review student answers</p>
+<p>Student: wants questions marked correctly</p>
+<p>Technician: wants changes to be traceable </p>
+</blockquote>
+<p><strong>Precondition</strong>: User with Instructor privileges logged in already.</p>
+<p><strong>Trigger</strong>: Instructor notified of submission review request. </p>
+<blockquote></blockquote>
+<p><strong>Main Scenario</strong>:</p>
+<ol>
+<li>Instructor selects quiz for submission review</li>
+<li>SuD lists student submissions</li>
+<li>Instructor selects student submission</li>
+<li>SuD displays first quiz item with student answer, correct answer and mark assigned</li>
+<li>Instructor confirms or modifies current mark assigned</li>
+<li>SuD records Instructor choice and advances to next quiz item</li>
+<li>Instructor repeats 4-6 as desired</li>
+<li>Instructor confirms or modifies overall quiz mark</li>
+<li>SuD records Instructor choice and repeats from step 2. </li>
+</ol>
+<p><strong>Extensions</strong>:</p>
+<blockquote>
+<p>5a. Instructor requests specific quiz item </p>
+<blockquote>
+<p>5a1. SuD displays list of quiz items</p>
+<p>5a2. Instructor advances to specific item</p>
+</blockquote>
+<p>6a. Notify grade change</p>
+<blockquote>
+<p>6a1. SuD identifies grade changes since last student login</p>
+<p>6a2. SuD invokes <em>Notify Student</em> use case</p>
+</blockquote>
+</blockquote>
+</body>
+</html>

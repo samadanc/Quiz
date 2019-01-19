@@ -1,0 +1,52 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta name="generator" content="ReText 7.0.1">
+        <title>useCaseMakeQuiz</title>
+    </head>
+    <body>
+        <style>
+        h2, p {
+            margin-top: 0px;
+            margin-bottom: 0px
+        }
+        </style>
+
+        <p><strong>Title:</strong> Make Quiz</p>
+        <p><strong>Primary Actor:</strong> Instructor</p>
+        <p><strong>Stakeholders and Interests:</strong></p>
+        <blockquote>
+            <p>Instructor: wants to create questions for students</p>
+            <p>Student: wants to recieve questions in a usable format</p>
+            <p>Technician: wants changes to be traceable </p>
+        </blockquote>
+        <p><strong>Precondition</strong>: User with Instructor privileges logged in already.</p>
+        <p><strong>Trigger</strong>: Instructor requests to create a new quiz. </p>
+        <blockquote></blockquote>
+        <p><strong>Main Scenario</strong>:</p>
+        <ol>
+            <li>Instructor selects option to create a new quiz</li>
+            <li>SuD displays page to create quiz</li>
+            <li>Instructor specifies name of quiz, people in the quiz, weight on final grade, etc.</li>
+            <li>SuD records quiz and proceeds to reading questions</li>
+            <li>Instructor adds a question to the quiz, specifying answers, weight</li>
+            <li>SuD records question info, and gives option to submit quiz</li>
+            <li>Instructor repeats 4-6 until quiz is finished, then submits quiz</li>
+            <li>SuD records finalized quiz</li>
+        </ol>
+        <p><strong>Extensions</strong>:</p>
+        <blockquote>
+            <p>7a. Edit quiz  </p>
+        <blockquote>
+            <p>7a1. Instructor accesses quiz edit function</p>
+            <p>7a2. SuD returns to 4 in Main Scenario</p>
+        </blockquote>
+            <p>7b. Push quiz to students</p>
+        <blockquote>
+            <p>7b1. Instructor accesses quiz push function</p>
+            <p>7b2. SuD invokes <em>Notify Student</em> use case</p>
+        </blockquote>
+        </blockquote>
+    </body>
+</html>

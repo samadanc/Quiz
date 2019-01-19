@@ -1,0 +1,53 @@
+<style>
+h2, p {
+    margin-top: 0px;
+    margin-bottom: 0px
+}
+</style>
+
+__Title:__ Take Quiz
+
+__Primary Actor:__ Student
+
+__Stakeholders and Interests:__
+
+>Student: wants the quiz recorded
+
+>Instructor: wants quiz submission
+
+>Tech: wants log of quiz submission
+
+__Precondition__: Student logged in to quiz selection page.
+>
+
+__Main Scenario__:
+
+1. SuD presents quizzes available to Student
+2. Student selects quiz
+3. SuD presents any quiz special instructions
+4. Student starts quiz
+5. SuD presents quiz question
+6. Student enters answer
+7. SuD advances to next question
+8. Student repeats 5-8 as desired
+9. Student submits quiz solution
+10. SuD confirms quiz submission
+
+__Extensions__:
+
+>6a. Suspend Quiz
+>> 6a1. Student suspends quiz session
+
+>> 6a2. SuD maintains answers for subsequent quiz session
+> 
+
+>10a. Submission rejected
+>> 10a1. SuD says quiz incomplete
+
+>> 10a2. Student forces incomplete submission
+
+>Variation: 6b. Student selects any other quiz question
+
+>Variation: 6c. Student changes previous answer
+
+

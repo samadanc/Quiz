@@ -1,0 +1,47 @@
+<style>
+h2, p {
+    margin-top: 0px;
+    margin-bottom: 0px
+}
+</style>
+
+__Title:__ Review Submission
+
+__Primary Actor:__ Instructor
+
+__Stakeholders and Interests:__
+
+>Instructor - wants to review student answers
+ 
+>Student: wants questions marked correctly
+
+>Technician: wants changes to be traceable 
+
+__Precondition__: User with Instructor privileges logged in already.
+
+__Trigger__: Instructor notified of submission review request. 
+>
+
+__Main Scenario__:
+
+1. Instructor selects quiz for submission review
+2. SuD lists student submissions
+3. Instructor selects student submission
+4. SuD displays first quiz item with student answer, correct answer and mark assigned
+5. Instructor confirms or modifies current mark assigned
+6. SuD records Instructor choice and advances to next quiz item
+7. Instructor repeats 4-6 as desired
+8. Instructor confirms or modifies overall quiz mark
+9. SuD records Instructor choice and repeats from step 2. 
+
+__Extensions__:
+
+>5a. Instructor requests specific quiz item 
+>>    5a1. SuD displays list of quiz items
+
+>>    5a2. Instructor advances to specific item
+
+>6a. Notify grade change
+>>    6a1. SuD identifies grade changes since last student login
+
+>>    6a2. SuD invokes *Notify Student* use case
